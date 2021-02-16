@@ -3,8 +3,11 @@ import repository.CardUserRepository;
 import repository.impl.CardUserRepositoryImpl;
 import java.util.List;
 
+
 public class Main {
     public static void main(String[] args) {
+
+
         CardUserModel user = new CardUserModel();
         CardUserModel user1 = new CardUserModel();
         CardUserRepository cardUserRepository = new CardUserRepositoryImpl();

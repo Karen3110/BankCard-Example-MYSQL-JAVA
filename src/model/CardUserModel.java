@@ -1,6 +1,8 @@
 package model;
 
 import java.util.Objects;
+
+
 public class CardUserModel {
     private int id;
     private int money;
@@ -85,7 +87,6 @@ public class CardUserModel {
     public void setPassword(int password) {
         this.password = password;
     }
-
 
     @Override
     public boolean equals(Object o) {
